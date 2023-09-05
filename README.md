@@ -1,4 +1,4 @@
-# Portafolio_implementacion
+# Detección de Alzheimer en un paciente por medio de su manera de escribir
 Este proyecto es un clasificador binario que es capaz de predecir si una persona padece Alzheimer o no, utilizando un modelo de regresión logística para su entrenamiento. El dataset utilizado fue obtenido desde la plataforma “Kaggle”, y fue obtenido con el nombre de “Handwriting Data to Detect Alzheimer’s Disease" del autor Francesco Fontanella. Este dataset cuenta datos de la escritura de 174 participantes, y cuenta con 451 atributos.
 
 La normatividad correspondiente a este reto es la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), y fue cumplida al momento de mantener el principio de confidencialidad de las personas de las cuales se obtuvieron los datos, teniendo en cuenta el artículo 16, párrafo 2, de la Constitución Política de los Estados Unidos Mexicanos.
