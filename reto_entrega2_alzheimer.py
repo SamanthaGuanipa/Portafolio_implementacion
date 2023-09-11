@@ -120,10 +120,10 @@ así sucesivamente para los demás hiperparámetros.
 
 
 grid_space = {
-    'max_depth': [30, 40, 50, None],  # Valores más altos para permitir árboles más profundos
-    'n_estimators': [200, 300, 400],  # Más árboles en el ensamble
-    'min_samples_leaf': [1, 2],  # Puede ser más bajo para permitir particiones más detalladas
-    'min_samples_split': [5, 10, 15]  # Valores más altos para evitar sobreajuste
+    'max_depth': [30, 40, 50, None],
+    'n_estimators': [200, 300, 400],
+    'min_samples_leaf': [1, 2],
+    'min_samples_split': [5, 10, 15]
 }
 
 grid = GridSearchCV(forest,param_grid=grid_space,cv=kf,scoring='accuracy')
